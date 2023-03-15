@@ -1,7 +1,25 @@
+body{
+    background: #fafafa;
+}
 .dino{
     position: absolute;
     bottom: 0;
     background-image: url(dino.png);
     width: 60px;
     height: 60px;
+}
+
+.cactus{
+    position: absolute;
+    width: 0;
+    height: 60px;
+    bottom: 0;
+    background-image: url(cactus.png);
+}
+
+.game-over{
+    text-align: center;
+    color: #666;
+    margin: 50px 0;
+    font-family: arial;
 }
